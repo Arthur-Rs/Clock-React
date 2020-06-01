@@ -1,0 +1,16 @@
+body {
+  padding: 0px;
+  margin: 0px;
+
+  background-color: #efefef;
+}
+
+* {
+  font-family: "PT Sans", sans-serif;
+  color: #0c0c0c;
+}
+
+h1 {
+  font-family: "Bree Serif", serif;
+  color: #efefef;
+}

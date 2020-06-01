@@ -1,0 +1,9 @@
+.top {
+  height: 10vh;
+  border-bottom: 2px groove #fbfbfb;
+}
+
+.button {
+  height: 10vh;
+  border-top: 2px groove #fbfbfb;
+}

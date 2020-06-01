@@ -1,0 +1,12 @@
+header {
+  background-color: #48a782;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1{
+  letter-spacing: 2px;
+  font-size: 42px;
+}

@@ -1,0 +1,21 @@
+footer {
+  background-color: #48a782;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p{
+  color: #efefef;
+  font-size: 18px;
+}
+
+footer p a{
+  color: #efefef;
+  text-decoration: none;
+}
+
+footer p a:hover{
+  color: #d0d0d0;
+}

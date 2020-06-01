@@ -1,0 +1,59 @@
+section {
+  height: 58vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+section .buttons {
+  margin-top: 60px;
+  display: flex;
+  align-items: baseline;
+}
+
+section img {
+  margin: 0px 10px;
+}
+
+section img[active="false"] {
+  opacity: 0.6;
+  width: 55px;
+  height: 55px;
+}
+
+section .clock {
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+section .clock * {
+  font-size: 150px;
+  font-family: "Squada One", cursive;
+}
+
+section .number {
+  width: 140px;
+  text-align: center;
+}
+
+section .clock .space-number {
+  margin: 0px 2px 0px 2px;
+}
+
+@media (max-width: 700px) {
+  section .clock * {
+    font-size: 80px;
+    font-family: "Squada One", cursive;
+  }
+
+  section .number {
+    width: 70px;
+    text-align: center;
+  }
+}
+
+section .control {
+  margin-top: 20px;
+}
